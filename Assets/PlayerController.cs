@@ -3,8 +3,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-    float moveSpeed = 5f;
-    float jumpForce = 7f;
+    public float moveSpeed = 5f;
+    public float jumpForce = 10f;
     float gravity = 9.81f;
     private CharacterController controller;
     private Vector3 moveDirection;
