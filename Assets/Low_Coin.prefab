@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2037749988139796902}
   - component: {fileID: 8516132237582467010}
   - component: {fileID: 3125118342533696863}
+  - component: {fileID: 8900650811847671766}
   m_Layer: 0
   m_Name: Low_Coin
   m_TagString: Untagged
@@ -100,3 +101,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotateSpeed: 1
+--- !u!136 &8900650811847671766
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2720743947012168397}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.3199998
+  m_Height: 0.44000006
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0.00000047683716}
